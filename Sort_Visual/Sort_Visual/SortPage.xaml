@@ -19,8 +19,10 @@
         
 
         <HorizontalStackLayout>
-            <Button Text="Bubble Sort"/>
-            <Button Text="Selection Sort"/>
+            <Button Text="Bubble Sort"
+                    Clicked="BubbleSort"/>
+            <Button Text="Selection Sort"
+                    Clicked="SelectSort"/>
             <Button Text="Insertion Sort"
                     Clicked= "InsertSort"/>
             
