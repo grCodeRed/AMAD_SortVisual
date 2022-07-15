@@ -11,7 +11,7 @@
             <Setter Property="WidthRequest" Value="12"/>
             <Setter Property="HorizontalTextAlignment" Value="Center"/>
             <Setter Property="VerticalTextAlignment" Value="End"/>
-            <!--<Setter Property="VerticalOptions" Value="End"/>-->
+            <Setter Property="VerticalOptions" Value="End"/>
         </Style>
                
     </Application.Resources>

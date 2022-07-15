@@ -9,7 +9,7 @@ public partial class SortPage : ContentPage
 	{
 		InitializeComponent();
 		this.values = new Values(numValues, hsl);
-		this.iSort = new InsertionSort(values);
+		this.iSort = new InsertionSort(values, 100);
 	}
 
 	void GenerateValues(object sender, EventArgs args)
